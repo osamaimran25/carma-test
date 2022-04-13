@@ -18,6 +18,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.card = require("./carmatest.model.js")(sequelize, Sequelize);
+db.card = require("./card.model.js")(sequelize, Sequelize);
 
 module.exports = db;
