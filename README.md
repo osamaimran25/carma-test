@@ -131,6 +131,5 @@ test.push("another");
 console.log(JSON.stringify(test));
 ```
 OUTPUT:
-```// in 1 module we get ["hello"]
-//in module 2 we get ["another"]
-because each module use it own instance for a test.s modeule ```
+```  in 1 module we get ["hello"]
+ in module 2 we get ["another"] because each module use it own instance for a test.js modeule ```
