@@ -1,5 +1,15 @@
-###### Question# 01
 
+##### Node Version
+v16.14.2
+
+##### Setup project
+``` npm install ```
+##### Encryption
+For encryption I have use cipher of Node js crypto with ""aes-256-cbc"" Algorithan which widely used for encryption and consider as more safe and easy to handle.
+##### Luhn algorithm 
+``` I use https://www.npmjs.com/package/luhn-js for validating the card number it is easy to use and give you different methods ```
+
+###### Question# 01
 ```
 for (var i = 0; i < 100; i++) {
 setTimeout(function() {
@@ -99,11 +109,11 @@ OUTPUT:
 hello
 ```
 ###### Question# 03
-var a; // var is use to declares a variable globally, or locally to an entire function regardless of block scope in other words it is avalable
+``` var a; // var is use to declares a variable globally, or locally to an entire function regardless of block scope in other words it is avalable
 to entire function.
 let b;// it is a use to declare block scope variable it doesnt declare globally in other words it is use to declare variable to an expression or block.
 const c; // it is use to declare a variable to define a variable which value do not change over the program 
-
+```
 ###### Question# 03
 
 ```
@@ -121,9 +131,5 @@ test.push("another");
 console.log(JSON.stringify(test));
 ```
 OUTPUT:
-// in 1 module we get ["hello"]
-//in module 2 we get ["another"]
-because each module use it own instance for a test.s modeule
-
-##### Node Version
-v16.14.2
+```  in 1 module we get ["hello"]
+ in module 2 we get ["another"] because each module use it own instance for a test.js modeule ```
